@@ -105,15 +105,15 @@ app-assinaturas-digitais/
 - `POST /auth/login` - Login do usuário
 
 ### Usuários
-- `GET /usuarios/` - Listar todos os usuários
-- `POST /usuarios/` - Criar novo usuário
+- `GET /usuarios/listar` - Listar todos os usuários
+- `POST /usuarios/cadastrar` - Criar novo usuário
 
 ### Assinaturas
-- `GET /assinaturas/` - Listar todas as assinaturas
-- `GET /assinaturas/:id` - Buscar assinatura por ID
-- `POST /assinaturas/` - Criar nova assinatura
-- `PUT /assinaturas/:id` - Atualizar assinatura
-- `DELETE /assinaturas/:id` - Deletar assinatura
+- `GET /assinaturas/listar` - Listar todas as assinaturas
+- `GET /assinaturas/listar/:id` - Buscar assinatura por ID
+- `POST /assinaturas/cadastrar` - Criar nova assinatura
+- `PUT /assinaturas/editar/:id` - Atualizar assinatura
+- `DELETE /assinaturas/deletar/:id` - Deletar assinatura
 
 ## 🔒 Autenticação
 
