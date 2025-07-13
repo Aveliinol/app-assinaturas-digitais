@@ -14,7 +14,7 @@ Uma API RESTful para gerenciamento de assinaturas digitais de revistas, desenvol
 
 - **Node.js** - Runtime JavaScript
 - **Express.js** - Framework web
-- **Pg** - Banco de dados relacional
+- **PostgreSQL** - Banco de dados relacional
 - **Sequelize** - ORM para JavaScript
 - **JWT** - Autenticação e autorização
 - **bcrypt** - Criptografia de senhas
@@ -32,7 +32,6 @@ Uma API RESTful para gerenciamento de assinaturas digitais de revistas, desenvol
 1. **Clone o repositório**
    ```bash
    git clone https://github.com/Aveliinol/app-assinaturas-digitais.git
-   cd app-assinaturas-digitais
    ```
 
 2. **Instale as dependências**
