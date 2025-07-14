@@ -75,21 +75,19 @@ O servidor estará disponível em `http://localhost:3000` (ou na porta configura
 ```
 app-assinaturas-digitais/
 ├── src/
+|   ├── middleware/               # Middlewares
 │   ├── config/
 │   │   └── configDB.js           # Configuração do banco de dados
 │   ├── modules/
 │   │   ├── assinatura/           # Módulo de assinaturas
 │   │   │   ├── controllers/      # Controladores
-│   │   │   ├── middleware/       # Middlewares específicos
 │   │   │   ├── models/          # Modelos do banco de dados
 │   │   │   └── routes/          # Rotas da API
 │   │   ├── autenticacao/        # Módulo de autenticação
 │   │   │   ├── controllers/
-│   │   │   ├── middleware/
 │   │   │   └── routes/
 │   │   └── usuario/             # Módulo de usuários
 │   │       ├── controllers/
-│   │       ├── middleware/
 │   │       ├── models/
 │   │       └── routes/
 │   └── utils/
