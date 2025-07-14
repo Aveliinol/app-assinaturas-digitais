@@ -1,6 +1,6 @@
 const express = require('express');
 const AssinaturaController = require('../controllers/assinatura.controller.js');
-const AutenticacaoMiddleware = require('../middleware/assinatura.middleware.js');
+const AutenticacaoMiddleware = require('../../../middleware/usuario.middleware.js');
 
 const router = express.Router();
 

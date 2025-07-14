@@ -1,6 +1,6 @@
 const express = require('express');
 const UsuarioController = require('../controllers/usuario.controller');
-const AutenticacaoMiddleware = require('../middleware/usuario.middleware');
+const AutenticacaoMiddleware = require('../../../middleware/usuario.middleware');
 const router = express.Router();
 
 // rota de cadastro
